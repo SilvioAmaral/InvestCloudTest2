@@ -206,7 +206,7 @@ class Program
                 }
                 if (sb != null)
                 {
-                    sb.Append(Math.Abs(C[i, j])); // Not sure if the string has to be of the absolute values 
+                    sb.Append(C[i, j]); // tried with Math.Abs(C[i, j]) but no difference 
                 }
             }
         }
